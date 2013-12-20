@@ -1,7 +1,7 @@
 !!! 5
 html
 	head
-		include partials/head.jade
+		- require_once('partials/head.php');
 	
 	body
 
@@ -17,7 +17,7 @@ html
 									li.active
 										a(href="#") Home
 									li
-										a(href="#") Account
+										a(href="pricing") Pricing
 									li
 										a(href="#") Blog
 									li
@@ -103,4 +103,4 @@ html
 				span You have the design, you have the code
 				a(href="#").btn.btn-large.btn-danger TRY IT NOW
 
-		include partials/footer.jade
+		- require_once('partials/footer.php');

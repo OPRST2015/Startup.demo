@@ -1,0 +1,33 @@
+
+<!-- Title-->
+<title>Startup Demo</title>
+<!-- Meta-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<!-- Bootstrap-->
+<link href="public/styles/bootstrap.css" rel="stylesheet" media="screen"/>
+<link href="public/styles/bootstrap-responsive.css" rel="stylesheet" media="screen"/>
+<!-- UI Kit-->
+<link href="public/styles/uikit.css" rel="stylesheet" media="screen"/>
+<link href="public/styles/flat-ui.css" rel="stylesheet" media="screen"/>
+<link href="public/styles/icon-font.css" rel="stylesheet" media="screen"/>
+<!-- Custom styles-->
+<link href="public/styles/style.css" rel="stylesheet" media="screen"/>
+<!-- Webfonts-->
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"/>
+<!-- TypeKit-->
+<script type="text/javascript" src="//use.typekit.net/spm5lvh.js"></script>
+<script type="text/javascript">
+  try{Typekit.load();}catch(e){}
+  
+</script>
+<!-- FontAwesome-->
+<link href="public/styles/font-awesome.css" rel="stylesheet" media="screen"/>
+<!-- Favicon-->
+<link rel="shortcut icon" href="/images/favicon.ico"/>
+<!-- Apple icons-->
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png"/>

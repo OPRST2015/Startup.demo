@@ -25,8 +25,8 @@ module.exports = function(grunt) {
 		csslint: {
 			strict: {
 				options: {
-			    csslintrc: '.csslintrc'
-			  },
+					csslintrc: '.csslintrc'
+				},
 				src: ['public/styles/style.css']
 			}
 		},
@@ -34,9 +34,13 @@ module.exports = function(grunt) {
 		// Task: Compile JADE
 		jadephp: {
 			compile: {
+				options: {
+					pretty: true
+				},
+				basedir: '/',
 				expand: true,
-				cwd: 'application/views/jade',
-				src: ['*.jade'],
+				cwd: 'application/views/jade/',
+				src: ['**/*.jade'],
 				dest: 'application/views/',
 				ext: '.php'
 			}
@@ -60,7 +64,7 @@ module.exports = function(grunt) {
 				}
 			},
 			jadephp: {
-				files: ['application/views/jade/*.jade'],
+				files: ['application/views/jade/**/*.jade'],
 				tasks: ['jadephp']
 			},
 			html: {
